@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package Abstract;
+package abstract;
 
-/**
- *
- * @author Admin
- */
-public class Abstract_Student {
-    
+abstract class Abstract_Student {
+    public abstract void studentCute();
+        
+    public void eat(){
+        System.out.println("Loveeeeee kaaayooo nako sya!");
+    }
+    public void sleep(){
+        System.out.println("Kahilakon nakoooooo!");
+    }
 }

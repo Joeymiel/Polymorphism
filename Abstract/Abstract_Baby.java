@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package Abstract;
+package abstract;
 
-/**
- *
- * @author Admin
- */
-public class Abstract_Baby {
+public class Abstract_Baby extends Abstract_Student{
     
+    public void studentCute(){
+        System.out.println("Ang cute mo talaga Baby");
+    }
 }
